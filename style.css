@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5);
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.7);
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+.main-content h2 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5);
+}
+.main-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
